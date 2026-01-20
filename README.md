@@ -9,10 +9,9 @@ When I started my PhD at the intersection of AI and Law I could find very little
 
 Quickly I came to realize the angle one could approach this intersection could lead to completely different kinds of research. If approaching AI as a tool to be used in the legal domain then one could aim to predict the outcome of a case by looking at the case text and relevant regulations, one could also use AI as an information retrieval system that helps either in finding relevant regulations or evidence. If approach the law as a software engineering requirement for AI systems then interesting problems could arise both in terms of improving the compliance with such requirements or assessing said compliance. 
 
-My research focuses mostly on the latter (and mostly to the EU context), so the resources that can be found here will be biased towards it. 
+My research focuses mostly on the latter (and mostly to the EU context), so this document will be biased towards it.
 
-<!-- TODO: expand on this, law as a requirement, AI as the object being regulated, maybe add a cool diagram  -->
-
+I would love for this to become a more broadly useful resource so please feel free to submit PRs or issues to include further thoughts, resources, or other useful information! 
 
 ## The friction
 While there is plenty of resources and guidance on doing a PhD ($P$), doing an interdisciplinary PhD ($IP$), doing a law PhD ($L$) and doing an AI PhD ($A$). This is not so much the case for doing a PhD at the intersection of AI and Law ($AL$). Sadly set theory does not apply in this case.
@@ -32,11 +31,26 @@ Since much of the advice you may have heard from other disciplines is hard to tr
 
 ## The grease
 Sadly, there are no definitive solutions to these sources of friction. But there are some mindsets, approaches and ideas that can make things go smoother:
-1. Say the right things, in the right way, to the right people: decide whether your message will have a stronger impact in one community or the other, and format your paper accordingly to fit their expectations. This does not mean that you should avoid addressing the other community, rather that you facilitate reading your papers for your primary audience. 
+1. Say the right things, in the right way, to the right people: decide whether your message will have a stronger impact in one community or the other, and format your paper accordingly to fit their expectations. This does not mean that you should avoid addressing the other community, rather that you facilitate reading your papers for your primary audience. This is a process that you will have to iterate over repeatedly for your paper and that will require feedback from different researchers to ensure you get it right. Here LLMs can sometimes be useful to see how the issue you want to present could be phrased for either audience and which one you'd prefer to go forward with. 
+2. Make sure your technical solutions are solving a real legal problem: often, the challenges related to regulation are more complex than they may seem. A common mistake AI developers make is over-simplify legal issues leading to advanced technical solutions that solve inexistent issues or that don't solve a problem at all. 
+3. Simplify where possible: a full in-depth innovative legal analysis  
+4. Stay curious, humble and informed: this applies to most research, but especially so in the case of interdisciplinary research. Very often you will talk to people that know more about Law or AI than you do. So listen and ask questions, be open about what you don't know and be ready to update your priors. 
+5. Learn to explain things simply: extracting the relevance of your research for different people is a skill and takes practice. I quickly learned that using the words "compliance" and "regulation" in a technical conference will lead to yawns, as will the use of words such as "loss landscape exploration" or "model multiplicity" in a legal conference. So it is important
 
 ## Beyond academic research
 Very interesting research and discoveries in this field are happening outside academia. While journals and academic conferences can be useful, do not underestimate how much you can learn from industry and regulators. 
 
+I've found [Anthropic's alignment and interpretability research](https://www.anthropic.com/research) to be particularly interesting on the industry side. In terms of regulators, research from the EU AI Office and Joint Research Centre (JRC) can sometimes be found at conferences, such as [here](https://icml.cc/virtual/2025/48352) while the [UK AISI](https://www.aisi.gov.uk/research) share their latest research on their website. 
+
+Another interesting source for insights specifically into regulations are technical standards. These often include details about possible technical implementations of regulatory requirements, therefore providing a more granular technical view on the requirement. A challenging aspect about these technical standards is that you often have to pay to get access to them, but sometimes university libraries can provide them. 
+
+## The keyword salad
+
+While for other fields it's easy to identify relevant research, this is hardly the case for me. I've found the events that I discuss in "Relevant events" to be a useful place to find interesting research, [Scholar inbox](https://www.scholar-inbox.com/) also helps in building a digest of relevant papers. I've also come to collect a bit of a keyword salad that can come in handy as a low precision high recall approach to identifying potentially relevant research. 
+
+These are some of the fields that can sometimes intersect with my areas of interests: AI safety, AI alignment, Interpretable AI, Trustworthy AI, Responsible AI, Private AI, Robust AI, and Technical AI governance. 
+
+While in terms of potentially interesting techniques I've had some success with: continual learning, machine unlearning, ad model multiplicity. 
 
 <!-- 
 ## What do I mean by intersection of AI and Law
@@ -85,9 +99,6 @@ Conference workshops are a great entrypoint into the field, since they showcase 
 
 In terms of conferences, the ones I've heard most commonly discussed especially when aiming to contribute to the intersection of AI & Law (and with other fields) are [ACM Conference on Fairness, Accountability, and Transparency (FAccT)](https://facctconference.org/), [ACM Symposium on Computer Science and Law (CS&Law)](https://computersciencelaw.org/2026) and [AI, Ethics, and Society (AIES)](https://www.aies-conference.com/2025/). 
 
-I've also gotten the chance to meet relevat people and get some insights in privacy conferences such as:
-
-
 Some topic specific events that I've found interesting are
 * For benchmarking and evaluation:
   * [The science of benchmarking and evaluating AI](https://sites.google.com/view/benchmarking-and-evaluating-ai) part of EurIPS
@@ -106,6 +117,7 @@ Programs/fellowships:
 Tools:
 * [AI conference deadlines tracker](http://aideadlines.org/?sub=ML,CV,NLP,RO,SP,DM,AP,KR,HCI,IRSM,MISC) to stay on top of the 
 * [Scholar inbox](https://www.scholar-inbox.com/) useful as a recommender system for papers, especially when planning to attend a large conference to identify the most obviously relevant papers
+* [Google Scholar Labs](https://scholar.google.com/scholar_labs/search): a RAG search tool to look through papers available in google scholar. 
 
 Miscelaneous: 
 * [Various papers, datasets, models and events](https://nllpw.org/resources/) shared by the Natural Legal Language Processing workshop part of the [Conference on Empirical Methods in Natural Language Processing](https://2025.emnlp.org/). 
