@@ -17,9 +17,11 @@ I would love for this to become a more broadly useful resource so please feel fr
 While there are plenty of resources and guidance on doing a PhD ($P$), doing an interdisciplinary PhD ($IP$), doing a law PhD ($L$) and doing an AI PhD ($A$), this is not so much the case for doing a PhD at the intersection of AI and Law ($AL$). 
 
 Sadly, standard set theory does not apply here. The intersection is its own distinct beast:
+
 $$
 AL \not\subset [P \cup IP \cup L \cup A]
 $$ 
+
 Much of the advice you may have heard from other disciplines is hard to translate. The following are some of the sources of friction that you may find in conducting your research:
 1. AI is a relatively new and rapidly evolving field
 2. AI regulation is relatively new (newer than 1.) and rapidly evolving (less rapidly than 1. but faster than regulation historically does)
